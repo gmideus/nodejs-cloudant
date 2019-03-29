@@ -1,0 +1,55 @@
+{
+    "cloudantNoSQLDB": [
+        {
+            "name": "SMD-database",
+            "instance_name": "SMD-database",
+            "binding_name": null,
+            "credentials": {
+                "apikey": "h3G1_h9bXl8Y6GPaqXFytm0rT41xPRqZGXWPlBDy71MI",
+                "host": "c066d69f-10c7-4028-9f10-97e67acffc1f-bluemix.cloudantnosqldb.appdomain.cloud",
+                "iam_apikey_description": "Auto generated apikey during resource-bind operation for Instance - crn:v1:bluemix:public:cloudantnosqldb:eu-gb:a/89f60506aeef41ae844e29844e3f192b:4d639f8a-2d73-4ef7-85fc-9721a8c5c5bd::",
+                "iam_apikey_name": "auto-generated-apikey-5116a965-2895-490e-83c6-5d1ec1c2a3f1",
+                "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/89f60506aeef41ae844e29844e3f192b::serviceid:ServiceId-ac908e5f-f13a-48db-af06-8cf241d258a4",
+                "password": "2b027becf542e1c0e879e6a3fcdea4cb1ed19164cdc3ab0ba4aef440248ee972",
+                "port": 443,
+                "url": "https://c066d69f-10c7-4028-9f10-97e67acffc1f-bluemix:2b027becf542e1c0e879e6a3fcdea4cb1ed19164cdc3ab0ba4aef440248ee972@c066d69f-10c7-4028-9f10-97e67acffc1f-bluemix.cloudantnosqldb.appdomain.cloud",
+                "username": "c066d69f-10c7-4028-9f10-97e67acffc1f-bluemix"
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "cloudantNoSQLDB",
+            "provider": null,
+            "plan": "Lite",
+            "tags": [
+                "data_management",
+                "ibm_created",
+                "lite",
+                "ibm_dedicated_public",
+                "ibmcloud-alias"
+            ]
+        }
+    ],
+    "AvailabilityMonitoring": [
+        {
+            "name": "availability-monitoring-auto",
+            "instance_name": "availability-monitoring-auto",
+            "binding_name": null,
+            "credentials": {
+                "cred_url": "https://broker.eu-gb.availabilitymonitoring.cloud.ibm.com",
+                "token": "bKmYzFNuKSw3xJ9YGbBYXytSCChL32stTMtBUNjgLACyw7xwW2LXLQYO3DBhjCYzxq9PTZD4X379/tEbEe+gHRne81nmtxniaQ6AsoK6jN4="
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "AvailabilityMonitoring",
+            "provider": null,
+            "plan": "Lite",
+            "tags": [
+                "ibm_created",
+                "bluemix_extensions",
+                "dev_ops",
+                "lite"
+            ]
+        }
+    ]
+}
