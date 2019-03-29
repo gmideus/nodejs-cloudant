@@ -8,4 +8,4 @@ applications:
   random-route: true
   memory: 256M
   services:
-  - sample-nodejs-cloudant-cloudantNoSQLDB
+  - Lab thingy
